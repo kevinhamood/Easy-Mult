@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/design_default_color_error"
+    android:backgroundTint="#C143F8"
+
+    android:foregroundTint="#070707"
+    android:gravity="center|top"
+    android:orientation="vertical"
+
+    >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="8mm"
+        android:layout_marginTop="0mm"
+        android:background="#06D5C1"
+        android:text="Easy-Mult"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:translationY="0mm"
+
+        />
+
+    <TextView
+
+        android:id="@+id/input2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="4mm"
+        android:background="#C5B2B2"
+
+        android:text="First Number"
+        android:textSize="4mm"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:background="@color/material_dynamic_primary60"
+
+
+        android:gravity="center"
+        android:text=""
+
+
+        android:translationX="0dp"
+        android:translationY="2mm"
+        tools:ignore="InOrMmUsage" />
+
+    <TextView
+        android:id="@+id/expl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:background="#C5B2B2"
+        android:drawableTint="#ED0A0A"
+        android:foregroundTint="#D11111"
+        android:shadowColor="#A52C2C"
+        android:text="Second Number"
+        android:textSize="4mm"
+        android:textStyle="bold"
+        android:translationX="0dp"
+        android:translationY="10mm" />
+
+    <TextView
+        android:id="@+id/input1"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:background="@color/material_dynamic_primary60"
+
+
+        android:gravity="center"
+        android:text=""
+
+
+        android:translationX="0dp"
+        android:translationY="12mm"
+        tools:ignore="InOrMmUsage" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="playMethod"
+        android:text="Generate two random simple numbers to be multiplied"
+        android:translationY="20mm"
+
+        />
+
+
+    <TextView
+        android:id="@+id/expl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Your answer is : "
+        android:textColor="#070707"
+        android:textSize="5mm"
+        android:textStyle="bold|italic"
+        android:translationY="150dp" />
+
+
+    <EditText
+        android:id="@+id/yourans"
+        android:layout_width="125dp"
+        android:layout_height="48dp"
+
+        android:backgroundTint="#070707"
+        android:hint="@string/your_answer"
+        android:drawableTint="#DF0808"
+        android:foregroundTint="#BBBBBB"
+        android:inputType="number"
+        android:shadowColor="#EA0B0B"
+        android:textColorHighlight="@color/material_dynamic_neutral80"
+        android:textStyle="bold"
+        android:translationY="150dp" />
+
+    <Button
+        android:id="@+id/button1"
+
+
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:insetLeft="10dp"
+
+        android:onClick="applyMethod"
+        android:text="Apply"
+        android:translationY="30mm" />
+
+
+</LinearLayout>
