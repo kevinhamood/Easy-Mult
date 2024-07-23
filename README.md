@@ -6,6 +6,6 @@
 
 # Applicaion's purposes
 
-### . Enhance the kid's capability to solve mathematical and physics exercises
+- Enhance the kid's capability to solve mathematical and physics exercises
 
-### ebgrek
+* ebgrek
