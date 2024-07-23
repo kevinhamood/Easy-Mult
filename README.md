@@ -6,7 +6,5 @@
 
 # Applicaion's purposes
 
-- ### Enhance the kid's capability to solve mathematical and physics-related exercises
-
+* ### Enhance the kid's capability to solve mathematical and physics-related exercises
 * ### Improve kid's views on how they understand science-related concepts
-* ### dlvnkkds
