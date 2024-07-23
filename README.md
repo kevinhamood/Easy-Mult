@@ -1,8 +1,7 @@
 # Easy-Mult (enhance your kid's skills)
 
 ## About the app
-### an interactive appliaction developed for kids to practice and solve several academic-realated excersizes that are related to their subjects taken in schools, in such a creative way we provide the excersises
-### to let the kids understands the basics behind these ideas.
+### an interactive appliaction developed for kids to practice and solve several academic-realated excersizes that are related to their subjects taken in schools, in such a creative way we provide the excersises to let the kids understands the basics behind these ideas.
 
 # Notes for usage purposes :
 ## Keep in mind using the API requires the base information about the warehouse, while all data requested and received will be in JSON only !!
